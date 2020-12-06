@@ -1,20 +1,24 @@
 # fh4 custom track site
 
 
-## Database fields
+## Search fields
 
 - Share Code
+- Track Title
 - Creator
-- Track Name
-- Car Type (Retro Rally, etc)
-- PI Restriction (A, B, S1, Anything Goes)
-- Event Type (Road, Rally, etc)
-- Track Pictures
-- Track Description (Text Field)
-- Track Rating (metric would need to be something like number of favorites or saves by users)
-- Tags
-- Upload Date
+- Event Type (Racing Series on fh4 blueprint search form)
+    - Any
+    - Cross Country
+    - Dirt
+    - Drag
+    - Road
+- Season
+    - Spring
+    - Summer
+    - Autum
+    - Winter
 - Category
+    - Any
     - Car Type
         - Classic Muscle
         - Classic Racers
@@ -30,6 +34,223 @@
         - Modern Rally
         - Modern Sports Cars
         - Modern Supercars
+        - Offroad
+        - Offroad Buggies
+        - Rally Monsters
+        - Rare Classics
+        - Retro Hot Hatch
+        - Retro Muscle
+        - Retro Rally
+        - Retro Saloons
+        - Retro Sports Cars
+        - Retro Supercars
+        - Rods and Customs
+        - Sports Utility Heroes
+        - Super GT
+        - Super Hot Hatch
+        - Super Saloons
+        - Track Toys
+        - Trucks
+        - Vans and Utility
+        - Vintage Racers 
+    - Horizon Special
+        - AMG vs M Sport
+        - Barn Finds
+        - British Racing Green
+        - Chevrolet vs Dodge
+        - Collector's Series
+        - Daily Drivers
+        - David vs Goliath
+        - Evo vs Impreza
+        - Ferrari vs Mclaren
+        - Forza Favorites
+        - Heavy Hitters
+        - High Rollers
+        - Homologation Heros
+        - Iconic Movie Cars
+        - Lamborghini vs Ferrari
+        - Microcar Mayhem!
+        - Muscle vs Tuner
+        - Mustang vs Camaro
+        - Oddball Rally
+        - Reasonably Priced Cars
+        - Summer Specials
+        - Upgrade Heroes
+        - Winter Wonders
+        - World's Fastest Road Cars
+    - Decade
+        - Pre 1950s
+        - 1950s
+        - 1960s
+        - 1970s
+        - 1980s
+        - 1990s
+        - 2000s
+        - 2010s
+    - Country
+        - Australia
+        - Austria
+        - Canada
+        - Croatia
+        - Denmark
+        - France
+        - Germany
+        - India
+        - Italy
+        - Japan
+        - Korea
+        - Netherlands
+        - Spain
+        - Sweden
+        - United Arab Emirates
+        - United Kingdom
+        - United States
+    - Manufacturer
+        - Abarth
+        - Acura
+        - Alfa Romeo
+        - Alpine
+        - Alumi Craft
+        - AMC
+        - AMG Transport Dynamics
+        - Apollo
+        - Ariel
+        - Ascari
+        - Aston Martin
+        - ATS
+        - Audi
+        - Austin
+        - Austin-Healey
+        - Auto Union
+        - BAC
+        - Bentley
+        - BMW
+        - Bowler
+        - Bugatti
+        - Buick
+        - Cadillac
+        - Can-Am
+        - Caterham
+        - Chevrolet
+        - Chrysler
+        - Datsun
+        - Dodge
+        - Donkervoort
+        - DS Automobiles
+        - Eagle
+        - Exomotive
+        - Ferrari
+        - Fiat
+        - Ford
+        - Forumla Drift
+        - Funco Motorsports
+        - GMC
+        - HDT
+        - Hennessy
+        - Hillman
+        - Holden
+        - Honda
+        - Hoonigan
+        - Hot Wheels
+        - HSV
+        - Hudson
+        - Hummer
+        - Hyundai
+        - Infiniti
+        - International
+        - Italdesign
+        - Jaguar
+        - James Bond Edition
+        - Jeep
+        - Kia
+        - Koenigsegg
+        - KTM
+        - Lamborghini
+        - Lancia
+        - Land Rover
+        - Lego Speed Champions
+        - Lexus
+        - Local Motors
+        - Lola
+        - Lotus
+        - Maserati
+        - Mazda
+        - Mclaren
+        - Mercedes-AMG
+        - Mercedes-Benz
+        - Mercury
+        - Meyers
+        - MG
+        - Mini
+        - Mitsubishi
+        - Morgan
+        - Morris
+        - Mosler
+        - Napier
+        - Nissan
+        - Noble
+        - Oldsmobile
+        - Opel
+        - Pagani
+        - Peel
+        - Penhall
+        - Peugeot
+        - Plymouth
+        - Polaris
+        - Pontiac
+        - Porsche
+        - Quartz
+        - Radical
+        - Ram
+        - Reliant
+        - Renault
+        - Rimac
+        - Spania GTA
+        - Subaru
+        - Sunbeam
+        - Talbot
+        - Tamo
+        - Terradyne
+        - Top Gear
+        - Toyota
+        - Triumph
+        - TVR
+        - Ultima
+        - Vauxhall
+        - Volkswagen
+        - Volvo
+        - W Motors
+        - Willys
+        - Zenvo
+- Car Class
+    - Open
+    - D
+    - C
+    - B
+    - A
+    - S1
+    - S2
+    - X
+- Route Length
+    - Unlimited
+    - Less than 10mi
+    - Less than 5mi
+    - Less than 3mi
+- Route Type
+    - Circuit
+    - Point to Point
+- Min Laps
+    - Any
+    - 1 .. 50
+- Max Laps
+    - Any
+    - 1 .. 50
+- Share Code
+- Track Pictures
+- Track Description (Text Field)
+- Track Rating (metric would need to be something like number of favorites or saves by users)
+- Tags
+- Upload Date
 
 
 ## Prelim Site Pages
@@ -40,3 +261,7 @@
  - add and delete tracks
  - favoriting tracks or some way to save the ones you like 
  - account page (for changing password)
+ - landing page
+    - search bar
+    - latest uploads
+    - most popular 
